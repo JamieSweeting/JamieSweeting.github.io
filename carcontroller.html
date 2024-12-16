@@ -1,0 +1,133 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio - Jamie Sweeting - Game Programmer</title> 
+    <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Jamie Sweeting</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="linksnonwhitebackground" href="index.html"> 
+                            Return to main page 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero-cargame"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <h1 class="my-heading-white">Car Controller</h1> 
+                <h4 class="sub-heading"> 
+                    With realistic engine simulation
+                </h4> 
+            </div> 
+            <div class="intro-buttons">
+                <a href = "./Additional Files/resume.txt" target="_blank">
+                <button class="btn common-btn">GitHub</button> 
+                </a>
+                <a href = "./Additional Files/resume.txt" target="_blank">
+                <button class="btn ghost-btn">Download build</button> 
+                </a>
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- About Section -->
+    <section id="about" class="about"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">Overview</h1> 
+            <p class="lead-para"> 
+                As part of a university module, I created a realistic 
+                car controller, applying real world physics to 
+                better inform how the car would drive.
+            </p> 
+            <p> 
+                The current design takes into account torque, RPM and  
+                gear ratios to simulate an engine receiving throttle and 
+                increasing power. It uses Unity's built in wheel collider system 
+                which, while not always easy to work with, allowed my focus to 
+                be on the engine performance.
+            </p> 
+            <h1 class="my-heading">Timeline</h1> 
+            <p class="lead-para">
+                Using my experience with version control, I set up 
+                a Github repo and began planning the next steps ahead. 
+                I used Agile methodology to help manage my time, following 
+                a process of:
+                <ol>
+                    <li>Planning what mechanic to add next and how I would 
+                        attempt to go about it (i.e. ideating on slip detection 
+                        for an automatic counter steering system).
+                    </li>
+                    <br>
+                    <li>Implementing the mechanic, usually starting with a 
+                        primitive solution and iterating on it until it 
+                        accomplishes what I set out.
+                    </li>
+                    <br>
+                    <li>Testing and refining the mechanic, ensuring it 
+                        runs as intended under different circumstances and 
+                        gathering feedback from anyone who can give second 
+                        opinions before moving onto the next task.
+                    </li>
+                </ol>
+                With the help of online resources, I slowly implemented 
+                different aspects of the engine, making sure to adhere to 
+                realism whenever possible. 
+            </p>
+        </div> 
+        <div class="about-video"> 
+            <video controls src="./Videos/pigeon 8dec.mp4" alt="About-Video"> 
+        </div> 
+    </section> 
+
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2023 All rights reserved | 
+                This portfolio website template is created 
+                by GeeksforGeeks. 
+            </h4>  
+        </div> 
+    </footer> 
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="script.js"></script> 
+</body> 
+
+</html>
