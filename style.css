@@ -521,6 +521,11 @@ body {
         padding: 1rem; 
     } 
 
+    .about .about-video video { 
+        width: 100%; 
+        padding: 1rem; 
+    } 
+
     .services { 
         padding: 0; 
     } 
