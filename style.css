@@ -306,7 +306,7 @@ body {
 .sub-heading { 
     margin: 0; 
     font-size: 0.8rem; 
-    color: #ccc; 
+    color: #fff; 
     font-weight: bolder; 
 } 
 
@@ -469,7 +469,7 @@ body {
     } 
 
     .sub-heading { 
-        color: #ccc; 
+        color: #fff; 
     } 
 
     .hero .intro-buttons { 
