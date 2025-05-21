@@ -1,0 +1,180 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio - Jamie Sweeting - Game Programmer</title> 
+    <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Jamie Sweeting</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="linksnonwhitebackground" href="index.html"> 
+                            Return to main page 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero-cargame"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <h1 class="my-heading-white">Mafia Pigeons</h1> 
+                <h4 class="sub-heading"> 
+                    An isometric twin-stick shooter
+                </h4> 
+            </div> 
+            <div class="intro-buttons">
+                <a href = "https://github.com/JamieSweeting/CarController" target="_blank">
+                <button class="btn common-btn">GitHub</button> 
+                </a>
+                <!-- come back when windows defender license thingy worked out
+                <a href = "./Additional Files/car build.zip" target="_blank">
+                <button class="btn ghost-btn">Download build</button> 
+                </a>
+                -->
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- About Section -->
+    <section id="about" class="about"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">Overview</h1> 
+            <p class="lead-para"> 
+                For my main module for the duration of my third year at university, 
+                I was a programmer for a isometric, ability-based, twin-stick 
+                shooter. My main contributions included creating all 3 playable 
+                characters and enemy types, along with many of their abilities, 
+                as well as the gameplay camera system. I also created interactable 
+                items and barriers for the level designers to place throughout the 
+                level.
+            </p> 
+            <p>
+                Being my first major project in Unreal Engine 5, there was a steep 
+                learning curve and many mistakes made early on. After some initial rough months, 
+                and a last minute participation in an UE5-based project for Global Game Jam 2025, 
+                I quickly gained vital experience which proved useful in the last few sprints of
+                the project.
+            </p>
+            <h1 class="my-heading">Timeline</h1> 
+            <p class="lead-para">
+                The project followed the industry-standard production phase as closely as possible, 
+                and took full advantage of agile workflow and verion control.
+                <ol>
+                    <li><b>Pre-Production (Oct 2024 - Dec 2024)</b><br>
+                        The team spent the ideation phase concepting potential ideas for the type of game we wanted to make. 
+                        We eventually decided on a co-op, twin-stick, isometric shooter with mechanics loosely inspired from an 
+                        unconventional variety of games such as the perspective of Hades, with multiplayer/
+                        couch co-op aspects of the Lego game franchises just to name a few. With this in mind, 
+                        I created the initial prototype in Unity with help from the other programmer on the team, 
+                        which was when we decided between ourselves that I would handle the character controls and 
+                        he would work almost solely on enemy AI. <br>
+                        This prototype proved a suitable proof of concept on which to base the rest of development, 
+                        and it was also around this time that we decided to indefinitely shelf the co-op idea until 
+                        we had more of the core mechanics in place.
+                    </li>
+                    <br>
+                    <li><b>Production (Jan 2025 - May 2025)</b><br>
+                        Being my first major project in Unreal Engine 5, there was a steep 
+                        learning curve and many mistakes made early on. Particularly where performance and UI were concerned, 
+                        there were definitely areas in which I needed rapid improvement if I wanted to help fulfill the vision 
+                        myself and the team shared. After some initial rough months, 
+                        and a last minute participation in an UE5-based project for Global Game Jam 2025, 
+                        I quickly gained vital experience which proved useful in the last few sprints of
+                        the project. Around halfway through, we decided it would be best to put all of our resources into 
+                        making one high quality introductory level, as we could not guarantee a high standard of quality if we 
+                        split our time between the initial two levels planned.
+                    </li>
+                    <br>
+                    <li><b>Post-Production (May 2025)</b><br>
+                        While development on new features and mechanics slowed down, I spent the last few weeks refining and 
+                        optimising pre-existing systems, along with fixing critical bugs and errors.
+                    </li>
+                </ol>
+            </p>
+        </div> 
+        <div class="about-text"> 
+            <h1 class="my-heading">Future Goals</h1> 
+            <p class="lead-para"> 
+                After spending so much time on this project, I intend to continue working on it past the deadline for 'release', 
+                returning to some of the earlier goals for the game as well as new ideas to build it into a more complete experience.
+                <ul>
+                    <li>
+                        Co-op multiplayer
+                    </li>
+                    <li>
+                        Multiple levels
+                    </li>
+                    <li>
+                        Horde mode / endless mode
+                    </li>
+                    <li>
+                        Rogue-like mode
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="about-video"> 
+            <video controls src="./Videos/carcontrollerdemo.mp4" alt="Car controller video"> 
+        </div> 
+    </section> 
+
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2023 All rights reserved | 
+                This portfolio website template is created 
+                by GeeksforGeeks. 
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.linkedin.com/in/jamie-sweeting-605a8230a" target="_blank"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer>
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="script.js"></script> 
+</body> 
+
+</html>
